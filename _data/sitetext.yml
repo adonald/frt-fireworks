@@ -148,7 +148,7 @@ en: &DEFAULT_EN
     legal: "Privacy Policy"
     social:
       - url: https://farnhamroundtable.org.uk/
-        icon: "fab fa-link"
+        icon: "fa-solid fa-link"
       - url: https://www.facebook.com/farnhamfireworks/
         icon: "fab fa-facebook-f"
       - url: https://www.instagram.com/farnham.round.table/
