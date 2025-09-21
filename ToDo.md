@@ -4,7 +4,7 @@
 
 * List of food and drink vendors
 * Sponsorship details
-* 
+* Mention of charity/where funds go
 
 ## Changes to make
 
