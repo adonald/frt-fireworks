@@ -1,0 +1,45 @@
+/* .hero-image {
+    background-image: url("/img/header-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.hero-image {
+    position: relative;
+}
+
+.hero-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/header-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    opacity: 0.8; /* Adjust opacity here */
+    z-index: -1;
+}
+
+p {
+    padding-bottom: 1rem;
+}
+
+.section:nth-of-type(even) {
+    background: #e0e0e0;
+}
+
+section {
+  scroll-margin-top: 3rem;
+}
+
+/* From https://simplecss.org/ */
+/* Format the expanding boxes */
+summary {
+    cursor: pointer;
+}
